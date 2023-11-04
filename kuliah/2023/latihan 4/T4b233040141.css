@@ -1,0 +1,106 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaee;
+    background-image: url(foto.jpgS);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #eaeaee;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: blue;
+    background-image: url(foto.jpg);
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 20px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(tokyo-revengers-1-2.jpg);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid skyblue;
+    border-top: 5px solid slateblue;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    color: lightskyblue;
+}
+
+.p1 {
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.p1 ul {
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer {
+    background-color: white;
+    padding: 10px;
+}
+
+.footer .copy {
+    color:red;
+    text-align: center;
+    font-size: 12px;
+}
